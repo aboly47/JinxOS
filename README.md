@@ -1,15 +1,11 @@
-# ShineOS
-ShineOS, the new perfect OS
+# PowderOS
+PowderOS is a fork of an old project I worked on before losing my other account. all development will continue here.
+I can't believe how cringe-worthy my old readme was. I've grown as a developer and as a person. *Maybe not so much as a developer. :)*
 
+# What is it?
+PowderOS is an operating system I'm working on. for now, it's limited. (Like, really limited.) but I'm planning on developing it as much as I can.
 
-# Lets Shine with ShineOS!
-this os, for now, is command-line based and the drivers only support text graphics, but were planing on supporting it at mid 2022.
-
-# based on FrOS
-ShineOS is based on [FrOS](https://github.com/FRosner/FrOS/).
-
-# 32-bit
-ShineOS is a x86_32 operating system, support all up-to-date graphics, (there is only no driver for them!)
+PowderOS is based on [FrOS](https://github.com/FRosner/FrOS/).
 
 # Components
 ShineOS contains the following components:
@@ -31,21 +27,27 @@ you can also find these packages on other package managers of your use.
 
 now, type:
 
-`cd PATH_TO_SHINEOS`
+`cd PATH_TO_POWDEROS`
 
-NOTE: change `PATH_TO_SHINEOS` accordingly.
+NOTE: change `PATH_TO_POWDEROS` accordingly.
 
 type:
 
 `make run`
 
-to compile and run the os in qemu, 
+to compile and run the os in qemu.
 
 type:
 
 `make debug` 
 
 for debug purposes.
+
+# The name?
+![Jinx/Powder](https://github.com/aboly47/PowderOS/blob/main/logo.jpeg)
+![Jinx/Powder](https://github.com/aboly47/PowderOS/blob/main/logo1.jpeg)
+![Jinx/Powder](https://github.com/aboly47/PowderOS/blob/main/logo2.jpeg)
+I'm a massive Arcane fan, and Jinx/Powder is where the name comes from. I know technically I should've called it Jinx, but calling your program "Jinx" just didn't sit well with me.
 
 ## Additional Resources
 
