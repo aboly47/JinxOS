@@ -79,29 +79,7 @@ void start_kernel() {
     print_nl();
 
     clear_screen();
-    print_string("Welcome to ShineOS 1.0.1 (", mix_color(BLACK, WHITE));
-
-    //Fun part (drawing letters in rainbow-colors)
-    char* hint="We've colors now...";
-    char fcol=0xf;
-    char bcol=WHITE;
-    for (int c=0; c<19; c++){
-        print_char(hint+c, mix_color(fcol, bcol));
-        if (fcol==0x0){
-            fcol=0xf;
-            if (bcol==0xf){
-                bcol=0x0;
-            }
-            else {
-                bcol++;
-            }
-        }
-        else {
-            fcol--;
-        }
-    }
-    // end of fun part
-    print_string("):\n", mix_color(WHITE, GREEN));
+    print_string("Welcome to ShineOS 1.0.1!\n", mix_color(BLACK, WHITE));
 
     //draw prompt
     print_string_defcol("> ");
@@ -113,16 +91,14 @@ void execute_command(char *input) {
         asm volatile("hlt");
     }
     else if (compare_string(input, "HELP") == 0) {
-        print_string_defcol("ShineOS, the new perfect os (now in shiny blue). the commands are HELP, HELLO and EXIT(for now!)\n> ");
-    }
-    else if (compare_string(input, "GUI") == 0){
-        print_string_defcol("graphics is not supported for now, but it will arrive soon. you can type HELP to see how you can use this command line interface.\n> ");
-    }
-    else if (compare_string(input, "HELLO") == 0) {
-        print_string_defcol("Hi! what do you want to do?\n> ");
+        print_string_defcol("JinxOS, a hubby os developed by Abolfazl Malekpour. the commands are HELP, EXIT and CLEAR\n> ");
     }
     else if (compare_string(input, "") == 0) {
         print_string_defcol("\n> ");
+    }
+    else if (compare_string(input, "CLEAR") == 0) {
+      clear_screen();
+      print_string_defcol("> ");
     }
     else {
         print_string_defcol("Unknown command: ");
