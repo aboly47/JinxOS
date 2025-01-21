@@ -1,5 +1,5 @@
-# PowderOS
-PowderOS is a fork of an old project I worked on before losing my other account. all development will continue here.
+# JinxOS
+JinxOS is a fork of an old project I worked on before losing my other account. all development will continue here.
 I can't believe how cringe-worthy my old readme was. I've grown as a developer and as a person. *Maybe not so much as a developer. :)*
 
 # What is it?
@@ -19,11 +19,11 @@ ShineOS contains the following components:
 
 # Installation guide
 
-in `Debian` based os's:
+in unix like operating systems (like linux and MacOS), install brew and run:
 
-`sudo apt install qemu nasm gcc`
+`brew install qemu nasm gcc`
 
-you can also find these packages on other package managers of your use.
+you can also find these packages on other package managers.
 
 now, type:
 
@@ -41,15 +41,18 @@ type:
 
 `make debug` 
 
-for debug purposes.
+for debug purposes,
+
+type:
+`make clean` to clean any binary files generated from the compilation.
 
 # The name?
 ![Jinx/Powder](https://github.com/aboly47/PowderOS/blob/main/logo.jpeg)
 ![Jinx/Powder](https://github.com/aboly47/PowderOS/blob/main/logo1.jpeg)
 ![Jinx/Powder](https://github.com/aboly47/PowderOS/blob/main/logo2.jpeg)
-I'm a massive Arcane fan, and Jinx/Powder is where the name comes from. I know technically I should've called it Jinx, but calling your program "Jinx" just didn't sit well with me.
+I'm a massive Arcane fan, and Jinx is where the name comes from.
 
-## Additional Resources
+## Resources if you're interested in OS developement
 
 - [Writing a Simple Operating System — from Scratch](https://www.cs.bham.ac.uk/~exr/lectures/opsys/10_11/lectures/os-dev.pdf)
 - [OS Dev Wiki](https://wiki.osdev.org/Meaty_Skeleton)
