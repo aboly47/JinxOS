@@ -23,7 +23,7 @@ after the re-write, ShineOS contains the following components:
 
 I'm a massive Arcane fan, and Jinx is where the name comes from.
 
-I don't own any of the above images. I found them from Google.
+I don't own any of the above images. I found them on Google.
 
 ## Resources if you're interested in OS developement
 
